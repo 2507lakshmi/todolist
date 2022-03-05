@@ -1,4 +1,5 @@
 //jshint esversion:6
+require('dotenv').config();
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -128,5 +129,5 @@ if (port == null || port == "") {
 
 
 app.listen(port, function() {
-  console.log("Server started successfully");
+  console.log("Server started successfull");
 });
